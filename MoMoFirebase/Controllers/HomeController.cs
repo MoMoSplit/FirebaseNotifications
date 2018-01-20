@@ -37,11 +37,5 @@ namespace MoMoFirebase.Controllers
                 return Json("Bad Request");
             }
         }
-
-        //[HttpPost]
-        //public ActionResult SendNotification(string data)
-        //{
-
-        //}
     }
 }
