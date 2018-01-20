@@ -75,8 +75,8 @@ namespace MoMoFirebase.Services
                 {
                     response = new SendNotificationResponse()
                     {
-                        SendNotificationStatus = SendNotificationEnum.ReceivingNotificationsDisabled,
-                        StatusMessage = "User doesnt want to receive notifications!"
+                        SendNotificationStatus = SendNotificationEnum.MissingToken,
+                        StatusMessage = "Don't have active tokens in database!"
                     };
                 }
 

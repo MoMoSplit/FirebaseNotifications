@@ -35,7 +35,7 @@ namespace MoMoFirebase.Infrastructure
                     {
                         body = postData.MessageData.Message,
                         title = postData.MessageData.Title,
-                        icon = postData.MessageData.image,
+                        icon = postData.MessageData.Image,
                         click_action = postData.MessageData.Link,
                         sound = "default",
                         content_available = true

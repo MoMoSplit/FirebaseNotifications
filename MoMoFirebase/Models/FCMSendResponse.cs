@@ -39,19 +39,4 @@ namespace MoMoFirebase.Models
         [JsonProperty("error")]
         public string Error { get; set; }
     }
-
-    public class SendNotificationResponse
-    {
-        public SendNotificationEnum SendNotificationStatus { get; set; }
-        public string StatusMessage { get; set; }
-    }
-
-    public enum SendNotificationEnum
-    {
-        Success,
-        NotificationPostFail,
-        MissingToken,
-        ReceivingNotificationsDisabled,
-        NotAllSuccess
-    }
 }

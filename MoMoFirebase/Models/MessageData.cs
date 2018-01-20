@@ -18,7 +18,7 @@ namespace MoMoFirebase.Models
         public string Message { get; set; }
 
         [JsonProperty(PropertyName = "image")]
-        public string image { get; set; }
+        public string Image { get; set; }
 
         [JsonProperty(PropertyName = "link")]
         public string Link { get; set; }
